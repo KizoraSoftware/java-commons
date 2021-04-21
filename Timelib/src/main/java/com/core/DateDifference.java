@@ -1,24 +1,27 @@
 package com.core;
 
-import java.util.Date;
+
+import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+
 
 public class DateDifference {
 
-    public static Date getDifference(String fromDate, String toDate) {
-        Date from = new Date(fromDate)
-
-        Date diffDate = new Date();
-
-        return diffDate;
+    public static LocalDateTime getDifference(String fromDate, String toDate) {
+        LocalDateTime  from = LocalDateTime.parse(fromDate);
+        LocalDateTime  to = LocalDateTime.parse(toDate);
+        return getDifference(from,to);
     }
 
-    public static Date getDifference(Date fromDate, Date toDate) {
-        Date diffDate = new Date();
+    public static LocalDateTime getDifference(LocalDateTime fromDate, LocalDateTime toDate) {
 
-        return diffDate;
+        return Duration gap = Duration.between(time2, time1);;
     }
 
-    public static Date getDifference(Long fromDate, Long toDate) {
+    public static LocalDateTime getDifference(Long fromDate, Long toDate) {
         Date diffDate = new Date();
 
         return diffDate;
