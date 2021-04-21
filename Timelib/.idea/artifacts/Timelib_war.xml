@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Timelib:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Timelib</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Timelib-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Timelib:war exploded" />
+    </root>
+  </artifact>
+</component>
