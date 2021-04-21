@@ -17,7 +17,7 @@ public class DateDifference {
 
         return diffDate;
     }
-    
+
     public static Date getDifference(Long fromDate, Long toDate) {
         Date diffDate = new Date();
 
@@ -36,6 +36,12 @@ public class DateDifference {
         return diffDate;
     }
 
+    public static Date getDifferenceHours(Long fromDate, Long toDate) {
+        Date diffDate = new Date();
+
+        return diffDate;
+    }
+
     public static Double getDifferenceMinutes(String fromDate, String toDate) {
         Double diffDate = 0.0;
 
@@ -44,6 +50,12 @@ public class DateDifference {
 
     public static Double getDifferenceMinutes(Date fromDate, Date toDate) {
         Double diffDate = 0.0;
+
+        return diffDate;
+    }
+
+    public static Date getDifferenceMinutes(Long fromDate, Long toDate) {
+        Date diffDate = new Date();
 
         return diffDate;
     }
@@ -60,6 +72,12 @@ public class DateDifference {
         return diffDate;
     }
 
+    public static Date getDifferenceSeconds(Long fromDate, Long toDate) {
+        Date diffDate = new Date();
+
+        return diffDate;
+    }
+
     public static Long getDifferenceMilliSeconds(String fromDate, String toDate) {
         Long diffDate = 0L;
 
@@ -68,6 +86,12 @@ public class DateDifference {
 
     public static Long getDifferenceMilliSeconds(Date fromDate, Date toDate) {
         Long diffDate = 0L;
+
+        return diffDate;
+    }
+
+    public static Date getDifferenceMilliSeconds(Long fromDate, Long toDate) {
+        Date diffDate = new Date();
 
         return diffDate;
     }
